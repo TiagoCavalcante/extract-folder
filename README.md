@@ -22,7 +22,7 @@ git clone https://github.com/TiagoCavalcante/extract-folder
 To use the script, navigate to the directory containing the script in your terminal and execute the following command:
 
 ```sh
-python3 extract_compressed.py <folder_path>
+python3 script.py <folder_path>
 ```
 
 Replace <folder_path> with the path to the directory containing the compressed files you wish to extract.
@@ -36,4 +36,4 @@ sudo apt install ruby-rubygems
 sudo gem install wayback_machine_downloader
 wayback_machine_downloader -a URL -p 1000 -s
 ```
-Replace URL with the target website's URL.
+Replace `URL` with the target website's URL.
